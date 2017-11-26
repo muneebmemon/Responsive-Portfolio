@@ -1,0 +1,815 @@
+/*
+	Styling file for my Portfolio website
+*/
+
+*{
+	box-sizing: border-box;
+}
+
+header, section, aside, nav, footer {
+	display: block;
+}
+/* Styling body */
+body{
+	margin: 5px auto;
+	width: 100%;
+	position: relative;
+	background-image: url("../images/dust_scratches.png");
+	min-height: 100%;
+}
+
+.naviStyle ul li{
+	list-style-type: none;
+	display: inline;
+	word-spacing: 1.1em
+}
+
+
+/* Styling main header */
+#headerStyle{
+	margin: 2px auto;
+	height: 80px;
+	position: relative;
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.container{
+	width: 100%;
+	margin: 0px auto;
+}
+
+/* Styling my name */
+.myName{	
+	float:left;
+	background-color: #4aaaa5;
+	font-size: 35px;
+	font-family: Verdana, Georgia, "Times New Roman" , sans-serif;
+	color: #fff;
+	padding: 20px 15px 20px 15px;
+	margin-left: 190px;
+	text-align: center;
+	
+}
+
+/* Styling navigation bar */
+.naviStyle{
+	float:right;
+	padding-top: 30px;
+	padding-right:10px;
+	background-color: #fff;
+	margin-right: 190px;
+}
+
+/* Styling anchor tag on navigation bar */
+a{
+	font-family: Arial, "Helvetica Neue", Helvetica, "sans-serif";
+	font-size: 18px;
+	color: #777;
+	text-decoration: none;
+	display: inline;
+}
+
+/* Styling content heading */
+h1{
+	font-family: Verdana, Georgia, "Times New Roman" , sans-serif;
+	font-size: 30px;
+	text-shadow: 1px 1px #9ab;
+	color: #4aaaa5;
+	padding: 25px 0px;
+	margin: 0px 30px;
+	border-bottom: 3px solid #ccc;
+	height: 80px;
+}
+
+/* Styling main content area */
+#contentArea{
+	clear: both;
+	position: relative;
+	width: 72%;
+	height: 440px;
+	margin: 30px auto;
+}
+
+/* Styling ABOUT section */
+.sectionAbout{
+	float: left;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: 460px;
+	width: 67%;
+}
+
+p.aboutMe{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #001;
+	text-align: justify;
+	line-height: 33px;
+	margin: 0px auto;
+	padding: 0px 30px;
+
+}
+
+p img{
+	display: inline;
+	float: left;
+	margin-right: 10px;
+}
+
+/* Styling Contact section */
+.sectionContact{
+	float: left;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: 570px;
+	width: 67%;
+}
+
+#contentArea .sectionContact form {
+	margin: 0px auto;
+	padding: 30px;
+	color: #000000;
+	font-size: 20px;
+}
+#contentArea .sectionContact form textarea[name="message"] {
+	width: 100%;
+	height: 200px;
+	border: 1px solid #00000;
+	margin: 5px 0 15px 0;
+	padding: 10px;
+}
+
+#contentArea .sectionContact form input[type="text"] {
+	font-size: 12px;
+	border: 1px solid lightgrey;
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0 15px 0;
+}
+
+#contentArea .sectionContact form input[type=submit] {
+	background-color: #4aaaa5;
+	border: none;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 10px 25px;
+}
+
+
+/* Styling Portfolio section */
+.sectionPortfolio{
+	float:left;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: 660px;
+	width: 67%;
+}
+
+.sectionPortfolio a{
+	display: inline-block;
+	margin: 10px 25px;
+	padding: 0px 10px;
+}
+
+.sectionPortfolio .portfolioStyle{
+	position:absolute;
+	color:#fff;
+	background-color:#4aaaa5;
+	height:40px;
+	width:235px;
+	line-height:40px;
+	text-align:center;
+	z-index:1;
+	font-size:18px;
+	font-family:Arial,sans-serif;
+	margin:0px 0px;
+	padding:0px 0px;
+}
+.sectionPortfolio .portfolioStyleOne{
+	top:220px;
+	left:53px;
+}
+
+.sectionPortfolio .portfolioStyleTwo{
+	top:220px;
+	left:362px;
+}
+
+.sectionPortfolio .portfolioStyleThree{
+	top:403px;
+	left:53px;
+}
+
+.sectionPortfolio .portfolioStyleFour{
+	top:403px;
+	left:362px;
+}
+
+.sectionPortfolio .portfolioStyleFive{
+	top:586px;
+	left:208px;
+}
+
+
+/* Styling side bar i.e Social media */
+.asideConnect{
+	border: 1px solid #ccc;
+	background-color: #fff;
+	float:right;
+	height: 190px;
+	width: 30%;
+	padding: 12px;
+}
+
+.asideConnect .socialIcons ul li{
+	display: inline-block;
+}
+
+
+.asideConnect .socialIcons img{
+	margin: 0px 1px;
+}
+
+.asideConnect .socialIcons {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 12px;
+}
+
+#contentArea .asideConnect h2{
+	color: #4aaaa5;
+	font-family: Verdana, Georgia, "Times New Roman" , sans-serif;
+	font-size: 23px;
+	text-shadow: 1px 1px #9ab;
+	font-weight: 600px;
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 55px
+}
+/* Styling footer */
+#footerStyle{
+	clear: both;
+	position: relative;
+	margin-top: 300px;
+	bottom: 50px;
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+	height: 80px;
+	width: 100%;
+}
+
+#footerStyle p{
+	line-height: 80px;
+	height: 80px;
+	margin: 0px auto;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	color: #ffffff;
+}
+
+@media screen and (max-width: 980px) {
+
+.naviStyle ul li{
+	list-style-type: none;
+	display: inline;
+	word-spacing: 1.1em
+}
+
+
+/* Styling main header */
+#headerStyle{
+	margin: 2px 0px;
+	height: 50px;
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+}
+
+.container{
+	width: 100%;
+	margin: 0px 0px;
+}
+
+/* Styling my name */
+.myName{	
+	float:left;
+	height: 50px;
+	padding-top: 15px;
+	background-color: #4aaaa5;
+	font-size: 18px;
+	font-family: Verdana, Georgia, "Times New Roman" , sans-serif;
+	color: #fff;
+	margin-left: 50px;
+	text-align: center;
+	
+}
+
+/* Styling navigation bar */
+.naviStyle{
+	float:right;
+	padding-top: 15px;
+	padding-right:10px;
+	background-color: #fff;
+	margin-right: 60px;
+}
+
+/* Styling anchor tag on navigation bar */
+a{
+	font-family: Arial, "Helvetica Neue", Helvetica, "sans-serif";
+	font-size: 12px;
+	color: #777;
+	text-decoration: none;
+	display: inline;
+}
+
+/* Styling content heading */
+h1{
+	font-family: Verdana, Georgia, "Times New Roman" , sans-serif;
+	font-size: 30px;
+	text-shadow: 1px 1px #9ab;
+	color: #4aaaa5;
+	padding: 25px 0px;
+	margin: 0px 30px;
+	border-bottom: 3px solid #ccc;
+	height: 80px;
+}
+
+/* Styling main content area */
+#contentArea{
+	clear: both;
+	position: relative;
+	width: 92%;
+	height: 440px;
+	margin: 20px auto;
+	padding: 0px 10px;
+}
+
+/* Styling ABOUT section */
+.sectionAbout{
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: auto;
+	width: 54%;
+	float: left;
+}
+
+.sectionContact{
+	float: left;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: auto;
+	width: 54%;
+}
+
+
+.sectionPortfolio{
+	float:left;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: auto;
+	width: 54%;
+}
+
+.sectionPortfolio .portfolioStyleOne{
+	display: none;
+}
+
+.sectionPortfolio .portfolioStyleTwo{
+	display:none;
+}
+
+.sectionPortfolio .portfolioStyleThree{
+	display: none;
+}
+
+.sectionPortfolio .portfolioStyleFour{
+	display: none;
+}
+
+.sectionPortfolio .portfolioStyleFive{
+	display: none;
+}
+
+.sectionPortfolio img{
+	width:100%;
+	display: block;
+	height: auto;
+}
+
+p.aboutMe{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #001;
+	text-align: justify;
+	line-height: 33px;
+	margin: 0px auto;
+	padding: 0px 30px;
+
+}
+
+p img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: 0px auto;
+}
+
+#footerStyle{
+	position: relative;
+	bottom: -30px;
+	display: block;
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+	width: 100%;
+}
+
+#footerStyle p{
+	line-height: 80px;
+	height: 80px;
+	margin: 0px auto;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	color: #ffffff;
+}
+
+.asideConnect{
+	float: right;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: auto;
+	width: 42%;
+	margin: 0px 10px;
+	padding-right: 15px;
+}
+
+
+}
+
+@media screen and (max-width:768px) {
+
+.naviStyle ul li{
+	list-style-type: none;
+	display: inline;
+	word-spacing: 1.1em
+}
+
+
+/* Styling main header */
+#headerStyle{
+	margin: 2px 0px;
+	height: 50px;
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+}
+
+.container{
+	width: 100%;
+	margin: 0px 0px;
+}
+
+/* Styling my name */
+.myName{	
+	float:left;
+	height: 50px;
+	padding-top: 15px;
+	background-color: #4aaaa5;
+	font-size: 18px;
+	font-family: Verdana, Georgia, "Times New Roman" , sans-serif;
+	color: #fff;
+	margin-left: 10px;
+	text-align: center;
+	
+}
+
+/* Styling navigation bar */
+.naviStyle{
+	float:right;
+	padding-top: 15px;
+	padding-right:10px;
+	background-color: #fff;
+	margin-right: 10px;
+}
+
+/* Styling anchor tag on navigation bar */
+a{
+	font-family: Arial, "Helvetica Neue", Helvetica, "sans-serif";
+	font-size: 12px;
+	color: #777;
+	text-decoration: none;
+	display: inline;
+}
+
+/* Styling content heading */
+h1{
+	font-family: Verdana, Georgia, "Times New Roman" , sans-serif;
+	font-size: 30px;
+	text-shadow: 1px 1px #9ab;
+	color: #4aaaa5;
+	padding: 25px 0px;
+	margin: 0px 30px;
+	border-bottom: 3px solid #ccc;
+	height: 80px;
+}
+
+/* Styling main content area */
+#contentArea{
+	clear: both;
+	position: relative;
+	width: 100%;
+	height: 440px;
+	margin: 20px auto;
+	padding: 0px 10px;
+}
+
+/* Styling ABOUT section */
+.sectionAbout{
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: auto;
+	width: 100%;
+}
+
+.sectionPortfolio{
+	position: relative;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: auto;
+	width: 100%;
+}
+
+.sectionPortfolio img{
+	display: inline;
+	height: auto;
+}
+
+.sectionPortfolio .portfolioStyleOne{
+	display: none;
+}
+
+.sectionPortfolio .portfolioStyleTwo{
+	display:none;
+}
+
+.sectionPortfolio .portfolioStyleThree{
+	display: none;
+}
+
+.sectionPortfolio .portfolioStyleFour{
+	display: none;
+}
+
+.sectionPortfolio .portfolioStyleFive{
+	display: none;
+}
+
+.sectionPortfolio a{
+	display: inline-block;
+	margin: 15px 10px;
+	padding: 0px 0px;
+}
+
+.sectionContact{
+	position: relative;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: auto;
+	width: 100%;
+	margin: 5px auto;
+}
+
+p.aboutMe{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #001;
+	text-align: justify;
+	line-height: 33px;
+	margin: 0px auto;
+	padding: 0px 30px;
+
+}
+
+p img{
+	display: inline;
+	float: left;
+	margin-right: 10px;
+}
+
+#footerStyle{
+	position: relative;
+	bottom: -1px;
+	display: block;
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+	width: 100%;
+}
+
+#footerStyle p{
+	line-height: 80px;
+	height: 80px;
+	margin: 0px auto;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	color: #ffffff;
+}
+
+.asideConnect{
+	position: relative;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: auto;
+	width: 100%;
+	margin: 25px auto;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 640px){
+#headerStyle{
+	margin: 2px auto;
+	height: 80px;
+	position: relative;
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.container{
+	width: 100%;
+	
+}
+
+/* Styling my name */
+.myName{	
+	width: 100%;
+	background-color: #4aaaa5;
+	font-size: 24px;
+	font-family: Verdana, Georgia, "Times New Roman" , sans-serif;
+	color: #fff;
+	padding-top:10px;
+	margin: 0px auto;
+	text-align: center;
+	
+}
+
+/* Styling navigation bar */
+.naviStyle{
+	width:100%;
+	padding-top: 5px;
+	padding-right: 10px;
+	background-color: #fff;
+	margin: 0px auto;
+	text-align: center;
+}
+
+a{
+	font-family: Arial, "Helvetica Neue", Helvetica, "sans-serif";
+	font-size: 12px;
+	color: #777;
+	text-decoration: none;
+	display: inline;
+}
+
+.naviStyle ul li{
+	list-style-type: none;
+	display: inline;
+	word-spacing: 2em;
+}
+
+/* Styling content heading */
+h1{
+	font-family: Verdana, Georgia, "Times New Roman" , sans-serif;
+	font-size: 20px;
+	text-shadow: 1px 1px #9ab;
+	color: #4aaaa5;
+	padding: 25px 0px 35px 0px;
+	margin: 0px 30px;
+	border-bottom: 3px solid #ccc;
+	height: 40px;
+}
+
+/* Styling main content area */
+#contentArea{
+	width: 100%;
+	height: 440px;
+	margin: 5px auto;
+}
+
+/* Styling ABOUT section */
+.sectionAbout{
+	position: relative;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: auto;
+	width: 100%;
+	margin: 5px auto;
+}
+
+.sectionContact{
+	position: relative;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: auto;
+	width: 100%;
+	margin: 5px auto;
+}
+
+.sectionPortfolio{
+	position: relative;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: auto;
+	width: 100%;
+	margin: 5px auto;
+}
+
+.sectionPortfolio .portfolioStyleOne{
+	display: none;
+}
+
+.sectionPortfolio .portfolioStyleTwo{
+	display:none;
+}
+
+.sectionPortfolio .portfolioStyleThree{
+	display: none;
+}
+
+.sectionPortfolio .portfolioStyleFour{
+	display: none;
+}
+
+.sectionPortfolio .portfolioStyleFive{
+	display: none;
+}
+
+.sectionPortfolio img{
+	width:100%;
+	display: block;
+	height: auto;
+}
+
+.sectionPortfolio a{
+	display: inline-block;
+	margin: 10px 25px;
+	padding: 0px 10px;
+}
+
+.asideConnect{
+	position: relative;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	height: auto;
+	width: 100%;
+	margin: 5px auto;
+}
+
+p.aboutMe{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #001;
+	text-align: justify;
+	line-height: 33px;
+	margin: 0px auto;
+	padding: 0px 30px;
+
+}
+
+p img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: 0px auto;
+}
+
+#footerStyle{
+	position: relative;
+	bottom: -10px;
+	display: block;
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+	width: 100%;
+}
+
+#footerStyle p{
+	line-height: 80px;
+	height: 80px;
+	margin: 0px auto;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	color: #ffffff;
+}
+
+
+}
